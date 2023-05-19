@@ -4,11 +4,50 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
   </head>
+
+|
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
-  </body>
+    <header>
+   <h2>ENCRIPTA TU CHISMECITO</h2>
+   <p>¿Estas cansado de que todo el mundo se entere de tu chismecito?</p>
+   <p>¡¡NO MAS!! se un super hacker que puede encriptar sus mas intimos secretos ¿Cómo?</p>
+   <p align="left">Ingresa tu chismecito en LETRAS MAYUSCULAS<br></p>
+    <p align="left">Selecciona cuantas letras del abcedario quieres que avance tu texto.<br></p>
+      <p align="left">Da click en ENCRIPTAR para hacerlo secreto<br></p>
+      <p align="left">Envia tu chismecito<br></p>
+        <p align="left">Para que tu amix lea el chismecito, debe poner el texto, seleccionar la misma cantidad de letras a recorrer y dar click en DESENCRIPTAR<br></p>
+          <p align="left">Listo su chismecito esta a salvo</p>
+
+    </header>
+    <br>
+    <br>
+   <main>
+  
+   <h2>Encriptado/Desencriptado</h2>
+    <p> Escribe tu mensaje, recuerda solo con MAYUSCULAS</p>
+    
+<textarea type="text" id="mensaje" class="estilazo"></textarea>
+    
+    <p>Desplazamiento: </p>
+<input type="number" id="desplazamiento" size="4"/>
+<!--BOTON de experimento jajjaj -->
+<p><button type="button" class="bnt neon" id="cifrar"> CIFRAR </button></p>
+
+
+<p><button type="button" class="bnt neon" id="descifrar"> DESCIFRAR </button></p>
+<!--</a></!-->
+
+<div class="fondo">
+  <h2>MENSAJE CIFRADO: </h2>
+  <textarea type="text" id="mensaje2" class="stilaxo"></textarea>
+</div>
+</main>
+
+<script src="index.js" type="module"></script>
+</body>
 </html>
+

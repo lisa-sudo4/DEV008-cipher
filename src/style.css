@@ -1,0 +1,89 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+  font-family: 'Source Code Pro', monospace;
+}
+  body{
+ 
+    
+    background-color: #5c4b7a;
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: rgb(250, 247, 247);
+   
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  
+   header{
+    border-radius: 35px;
+    box-shadow: 8px 8px 35px rgb(27, 11, 29);      
+    text-align: center;
+    background-color:  rgb(27, 11, 29);
+    justify-content: center;
+    padding: 15px 7px;
+
+   }
+
+   .neon{
+    position: relative;
+    display: inline-block;
+    padding: 7Px 7px;
+    color:#020004;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;    
+  }
+
+main{
+  border-radius: 50px;
+  box-shadow: 8px 8px 35px rgb(27, 11, 29);
+  padding: 15px 7px;
+  background-image:url(img/chemss.png);
+  background-position: right: 10px;;
+  background-repeat: no-repeat;
+  background-position:right;
+ 
+
+}
+
+.estilazo{
+  border-radius: 25px;
+  outline-offset: none; 
+  size: 30px 15px;
+  background-color: rgb(27, 11, 29);
+  color:#fff;
+  padding: 25px;
+  border: 1px #ffffff;
+  }
+
+  .stilaxo{
+    border-radius: 25px;
+    outline-offset: none; 
+    background-color:  rgb(27, 11, 29);
+    color:#83f963;
+    padding:100px;
+    border: 1px #ffffff;
+   margin: 0;
+   text-align:justify;
+      
+    }
+
+    .mensajeEncriptado{
+
+      border-radius: 50px;
+      box-shadow: 8px 8px 35px rgb(27, 11, 29);
+      padding: 15px 7px;
+      background-color:rgb(27, 11, 29);
+    } 
+
+   /* .fondo{
+      border-radius: 50px;
+      background-color:rgb(27, 11, 29);
+    }*/
